@@ -1,0 +1,33 @@
+{
+  "name": "youtube-channel-stats",
+  "description": "Get youtube channels stats",
+  "keywords": [
+    "youtube"
+  ],
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jb55/youtube-channel-stats.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --harmony --reporter spec"
+  },
+  "dependencies": {
+    "csv-record-parser": "0.0.4",
+    "debug": "^1.0.3",
+    "googleapis": "git://github.com/google/google-api-nodejs-client",
+    "moment": "^2.7.0",
+    "tableize-csv-parser": "0.0.1",
+    "thunkify": "2.1.2",
+    "xtend": "3.0.0"
+  },
+  "devDependencies": {
+    "co": "^3.0.6",
+    "expect.js": "*",
+    "mocha": "*"
+  },
+  "engineStrict": {
+    "node": ">= 0.11"
+  }
+}
